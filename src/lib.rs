@@ -91,7 +91,6 @@ mod tests {
 
         assert_eq!(engine.computed[2].height, 40.0);
         assert_eq!(engine.computed[2].width, 200.0);
-        println!("X: {}", engine.computed[2].x);
         assert_eq!(engine.computed[2].y, 20.0);
         assert_eq!(engine.computed[2].x, 350.0);
     }
