@@ -18,7 +18,7 @@ But if you need a lightweight and fast layout engine that you can embed into you
 
 Axes was benchmarked against Taffy 0.9.2 from crates.io.
 
-Benchmark results can be found in `benches/results-26-02-2026.md`.
+Benchmark results can be found in [`benches/results-26-02-2026.md`](benches/results-26-02-2026.md).
 
 In these benchmarks, Axes performs faster in all tested cases (Approximately 2x faster than Taffy).
 
