@@ -1,3 +1,4 @@
+#![cfg_attr(feature = "no_std", no_std)]
 mod engine;
 pub use engine::*;
 mod computed;
@@ -10,6 +11,13 @@ mod tree;
 pub use tree::*;
 
 pub type NodeId = usize;
+
+#[cfg(feature = "no_std")]
+extern crate alloc;
+#[cfg(feature = "no_std")]
+#[allow(unused_imports)]
+use alloc::vec; // HACK: for some reason the vec! macro
+// doesn't make rustc think a crate is used
 
 #[cfg(test)]
 mod tests {

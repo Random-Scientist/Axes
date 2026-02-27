@@ -1,3 +1,5 @@
+#[cfg(feature = "no_std")]
+use alloc::vec::Vec;
 use smallvec::SmallVec;
 
 use crate::{NodeId, Style};
