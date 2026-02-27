@@ -2,6 +2,12 @@
 
 Axes is a layout engine written in Rust.
 
+[![Crates.io](https://img.shields.io/crates/v/axes.svg?logo=rust)](https://crates.io/crates/axes)
+[![Apache 2.0 or MIT license.](https://img.shields.io/badge/license-MIT-blue.svg)]()
+[![Documentation](https://docs.rs/axes/badge.svg)](https://docs.rs/axes)
+[![GitHub issues](https://img.shields.io/github/issues/dest-hq/axes.svg)](https://github.com/dest-hq/axes/issues/)
+
+
 The goal of the project is simple, to provide a fast and predictable layout engine.
 
 > [!WARNING]
