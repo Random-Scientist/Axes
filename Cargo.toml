@@ -1,6 +1,6 @@
 [package]
 name = "axes"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2024"
 license = "MIT"
 repository = "https://github.com/dest-hq/axes"
@@ -15,7 +15,7 @@ members = ["examples/*"]
 resolver = "2"
 
 [workspace.dependencies]
-axes = { version = "0.1.0", path = "." }
+axes = { version = "0.2.0", path = "." }
 
 [dev-dependencies]
 criterion = "0.8.2"
